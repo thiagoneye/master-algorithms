@@ -13,14 +13,14 @@ All codes were based on the cited book.
 
 ## Contents
 
-1. Algoritmos sobre números
-2. Algoritmos de divisão e conquista
-3. Decomposição de grafos
-4. Caminhos em grafos
-5. Algoritmos gulosos
-6. Programação dinâmica
-7. Programação linear e reduções
-8. Problemas NP-completos
-9. Lidando com NP-completude
-10. Algoritmos quânticos
-- Notas históricas e leitura adicional
+1. Algorithms with numbers
+2. Divide-and-conquer algorithms
+3. Decompositions of graphs
+4. Paths in graphs
+5. Greedy algorithms
+6. Dynamic programming
+7. Linear programming and reductions
+8. NP-complete problems
+9. Coping with NP-completeness
+10. Quantum algorithms
+- Historical notes and further reading
