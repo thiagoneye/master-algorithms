@@ -1,4 +1,4 @@
-# Auxiliary Functions
+# Functions
 
 def division(x: int, y: int) -> int:
     """

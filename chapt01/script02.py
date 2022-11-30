@@ -1,4 +1,4 @@
-# Auxiliary Functions
+# Functions
 
 def multiplication(x, y):
     """ multiplication ala francais"""

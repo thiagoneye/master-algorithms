@@ -1,4 +1,4 @@
-# Auxiliary Functions
+# Functions
 
 def multiplication(x: int, y: int) -> int:
     """
@@ -8,18 +8,16 @@ def multiplication(x: int, y: int) -> int:
         z = 0
     else:
         z = list()
-        
+
         while x > 0:
             if x % 2 != 0:
                 z.append(y)
-            
-            print(f'{x} | {y} | {z}')
-            
+
             x = int(x/2)
             y *= 2
-    
+
     z = sum(z)
-    
+
     return z
 
 # Execution
