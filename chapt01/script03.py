@@ -1,6 +1,6 @@
 # Functions
 
-def division(x: int, y: int) -> int:
+def division(x: int, y: int):
     """
     Division.
     """
