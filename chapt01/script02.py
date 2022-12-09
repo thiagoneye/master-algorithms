@@ -16,5 +16,6 @@ def multiplication(x, y):
 
 # Execution
 
-print(multiplication(10, 10))
-print(multiplication(81, 102))
+if __name__ == '__main__':
+    print(multiplication(10, 10))
+    print(multiplication(81, 102))

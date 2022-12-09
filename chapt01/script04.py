@@ -16,4 +16,5 @@ def modexp(x: int, y: int, N: int) -> int:
 
 # Execution
 
-print(modexp(8, 4, 10))
+if __name__ == '__main__':
+    print(modexp(8, 4, 10))

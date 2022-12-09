@@ -22,7 +22,8 @@ def multiplication(x: int, y: int) -> int:
 
 # Execution
 
-print(multiplication(25, 37), '\n')
-print(multiplication(81, 102), '\n')
-print(multiplication(24, 31), '\n')
-print(multiplication(10, 20), '\n')
+if __name__ == '__main__':
+    print(multiplication(25, 37), '\n')
+    print(multiplication(81, 102), '\n')
+    print(multiplication(24, 31), '\n')
+    print(multiplication(10, 20), '\n')

@@ -23,5 +23,6 @@ def division(x: int, y: int):
 
 # Execution
 
-print(division(100, 5))
-print(division(999, 2))
+if __name__ == '__main__':
+    print(division(100, 5))
+    print(division(999, 2))

@@ -18,14 +18,15 @@ def primality_test(N: int) -> bool:
 
 # Execution
 
-results = list()
+if __name__ == '__main__':
+    results = list()
 
-for _ in range(100):
-    results.append(primality_test(10))
+    for _ in range(100):
+        results.append(primality_test(10))
 
-print(Counter(results))
+    print(Counter(results))
 
-for _ in range(100):
-    results.append(primality_test(17))
+    for _ in range(100):
+        results.append(primality_test(17))
 
-print(Counter(results))
+    print(Counter(results))

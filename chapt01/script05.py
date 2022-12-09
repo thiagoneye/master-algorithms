@@ -11,6 +11,7 @@ def euclides(a: int, b: int) -> int:
 
 # Execution
 
-print(euclides(10, 5))
-print(euclides(9876543, 49))
-print(euclides(252, 105))
+if __name__ == '__main__':
+    print(euclides(10, 5))
+    print(euclides(9876543, 49))
+    print(euclides(252, 105))

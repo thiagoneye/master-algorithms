@@ -14,4 +14,5 @@ def extended_euclid(a: int, b: int) -> int:
 
 # Execution
 
-print(extended_euclid(120, 23))
+if __name__ == '__main__':
+    print(extended_euclid(120, 23))
