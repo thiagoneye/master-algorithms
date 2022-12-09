@@ -1,6 +1,6 @@
 # book-algorithms
 
-Algorithm studies from the book "Algoritmos" by Sanjoy Dasgupta (McGraw Hill).
+Algorithm studies from the book "Algorithms" by Sanjoy Dasgupta (McGraw Hill).
 Copyright 2009 from McGraw Hill.
 
 ISBN: 978-85-7726-032-4
