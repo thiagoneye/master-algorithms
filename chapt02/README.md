@@ -7,3 +7,4 @@
 
 1. Merge
 2. Mergesort
+3. Selection (Median)
