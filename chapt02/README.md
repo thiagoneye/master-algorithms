@@ -1,7 +1,7 @@
 # Studied Contents
 
 1. Recursive Functions
-2. Divide-and-conquer algorithms
+2. Divide-and-Conquer Algorithms
 
 # List of Scripts
 
