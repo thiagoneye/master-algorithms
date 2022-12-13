@@ -1,4 +1,4 @@
-# book-algorithms
+# Dasgupta, Papadimitriou and Vazirani
 
 Algorithm studies from the book "Algorithms" by Sanjoy Dasgupta (McGraw Hill).
 Copyright 2009 from McGraw Hill.
