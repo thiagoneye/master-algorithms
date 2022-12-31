@@ -12,7 +12,7 @@
 3. Merge
 3. Merge Sort
 
-## Concepts
+# Concepts
 
 - **Loops Invariant:** Is a property of a program loop that is true before (and after) each iteration.
 - **Analysis:** Predict the resources the algorithm will need.
