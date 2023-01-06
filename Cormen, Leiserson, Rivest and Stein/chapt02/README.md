@@ -4,7 +4,6 @@
 2. Recursives functions
 3. Divide-and-conquer
 
-
 # List of Scripts
 
 1. Insertion Sort
