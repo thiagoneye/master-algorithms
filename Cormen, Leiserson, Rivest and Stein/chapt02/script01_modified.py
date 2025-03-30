@@ -8,7 +8,7 @@ def insertion_sort(a: list) -> list:
         print(f"Cards in Hand = {a[:j]}")
         print(f"Pull Card = {a[j]}\n")
 
-        while i >= 0 and a[i] > key:
+        while i >= 0 and a[i] < key:
             a[i+1] = a[i]
             i -= 1
 
