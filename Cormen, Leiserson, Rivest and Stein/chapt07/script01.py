@@ -1,3 +1,4 @@
+# Functions
 
 def partition(A, low, high):
     x = A[high]
@@ -14,6 +15,8 @@ def quicksort(A, low, high):
         q = partition(A, low, high)
         quicksort(A, low, q-1)
         quicksort(A, q+1, high)
+
+# Execution
 
 if __name__ == "__main__":
     A = [2, 8, 7, 1, 3, 5, 6, 4]
