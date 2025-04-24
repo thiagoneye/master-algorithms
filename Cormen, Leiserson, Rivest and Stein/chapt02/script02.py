@@ -1,6 +1,6 @@
 # Functions
 
-def insertion_sort_descending(a: list) -> list:
+def insertion_sort_descending(a: list):
     for j in range(1, len(a)):
         key = a[j]
         i = j - 1
@@ -11,11 +11,9 @@ def insertion_sort_descending(a: list) -> list:
 
         a[i+1] = key
 
-    return a
-
 # Execution
 
 if __name__ == '__main__':
     a = [5, 2, 4, 6, 1, 3]
-
-    print(insertion_sort_descending(a))
+    insertion_sort_descending(a)
+    print(a)
