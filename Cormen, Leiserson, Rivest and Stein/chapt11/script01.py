@@ -3,10 +3,8 @@
 def division_method(k: int, m: int) -> int:
     return k % m
 
-
 def multiplication_method(k: int, m: int, A=0.6180339887) -> int:
     return int(m * ((k * A) % 1))
-
 
 # Execution
 

@@ -2,64 +2,61 @@
 
 from script01 import division_method
 
-# Functions
+# Classes
 
-def chained_hash(m: int) -> list:
-    T = [[] for _ in range(m)]
-    return T
+class ChainedHash:
+    def __init__(self, m: int, function=division_method):
+        self._m = m
+        self.T = [[] for _ in range(self._m)]
+        self._function = function
 
+    def insert(self, x):
+        idx = self._function(x, self._m)
+        self.T[idx].append(x)
 
-def chained_hash_insert(T, x, function=division_method):
-    m = len(T)
-    idx = division_method(x, m)
-    T[idx].append(x)
+    def search(self, k):
+        i = self._function(k, self._m)
+        j = None
 
+        for key, value in enumerate(self.T[i]):
+            if k == value:
+                j = key
 
-def chained_hash_search(T, k, function=division_method):
-    m = len(T)
-    i = division_method(k, m)
-    j = None
+        return i, j
 
-    for key, value in enumerate(T[i]):
-        if k == value:
-            j = key
+    def delete(self, x):
+        i, j = self.search(x)
 
-    return i, j
-
-
-def chained_hash_delete(T, x, function=division_method):
-    i, j = chained_hash_search(T, x)
-
-    if j is not None:
-        del T[i][j]
+        if j is not None:
+            del self.T[i][j]
 
 
 # Executions
 
 if __name__ == "__main__":
     # Create a New Hash Table
-    T = chained_hash(9)
+    hash_table = ChainedHash(9)
 
     # Insertion
-    chained_hash_insert(T, 5)
-    chained_hash_insert(T, 28)
-    chained_hash_insert(T, 19)
-    chained_hash_insert(T, 15)
-    chained_hash_insert(T, 20)
-    chained_hash_insert(T, 33)
-    chained_hash_insert(T, 12)
-    chained_hash_insert(T, 17)
-    chained_hash_insert(T, 10)
+    hash_table.insert(5)
+    hash_table.insert(28)
+    hash_table.insert(19)
+    hash_table.insert(15)
+    hash_table.insert(20)
+    hash_table.insert(33)
+    hash_table.insert(12)
+    hash_table.insert(17)
+    hash_table.insert(10)
 
     # Print
-    print(T)
+    print(hash_table.T)
 
     # Search
-    i, j = chained_hash_search(T, 33)
+    i, j = hash_table.search(33)
     print(f"i: {i} and j: {j}")
 
     # Delete
-    chained_hash_delete(T, 12)
+    hash_table.delete(12)
 
     # Print
-    print(T)
+    print(hash_table.T)
