@@ -1,4 +1,4 @@
-# Dasgupta, Papadimitriou and Vazirani
+# Cormen, Leiserson, Rivest and Stein
 
 Algorithm studies from the book "Introduction to Algorithms" by Thomas H. Cormen (McGraw Hill).
 Copyright 2012 from Elsevier.
