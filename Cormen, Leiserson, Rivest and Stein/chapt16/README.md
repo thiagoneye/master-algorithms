@@ -8,4 +8,3 @@
 
 1. Recursive Activity Selector
 2. Greedy Activity Selector
-3. Huffman Code
