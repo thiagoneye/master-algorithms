@@ -22,7 +22,7 @@
 
 * **Conceito:** Toma a decisão que parece ser a melhor no momento atual (uma escolha localmente ótima), na esperança de que essa sequência de escolhas leve a uma solução globalmente ótima.
 * **Tipos de Aplicações:** Problemas de otimização, agendamento de tarefas, construção de árvores geradoras mínimas e busca de caminhos mais curtos.
-* **Quando é Aplicável:** Quando o problema possui a **propriedade da escolha gulosa**, ou seja, uma escolha localmente ótima sempre fará parte de uma solução globalmente ótima. Também requer subestrutura ótima, mas não necessariamente subproblemas sobrepostos.
+* **Quando é Aplicável:** Quando o problema possui a **propriedade da escolha gulosa**, ou seja, uma escolha localmente ótima sempre fará parte de uma solução globalmente ótima. Também requer **subestrutura ótima**, mas não necessariamente subproblemas sobrepostos.
 * **Vantagens:** Geralmente **mais rápido** e mais **simples de implementar** do que a programação dinâmica. Requer menos memória.
 * **Desvantagens:** **Não garante a solução ótima** para todos os problemas. Uma escolha que parece boa agora pode levar a uma solução final ruim.
 * **Problemas Clássicos:**
