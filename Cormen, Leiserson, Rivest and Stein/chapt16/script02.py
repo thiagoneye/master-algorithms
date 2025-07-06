@@ -1,7 +1,7 @@
 # Functions
 
 
-def greedy_activity_selector(s: list, f: list):
+def greedy_activity_selector(s: list, f: list) -> list:
     n = len(s)
     c = [0]
     k = 0
