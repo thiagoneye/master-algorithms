@@ -22,7 +22,7 @@
 * **Vantagens:** Produz um código de prefixo ótimo, garantindo a melhor taxa de compressão possível para um dado conjunto de frequências. É conceitualmente simples e eficiente.
 * **Desvantagens:** Requer duas passadas sobre os dados: uma para calcular as frequências e outra para a compressão real. A tabela de frequências (ou a árvore de Huffman) precisa ser armazenada junto com os dados comprimidos, o que pode anular a compressão para arquivos muito pequenos.
 * **Complexidade:** **$O(n \log n)$**, onde *n* é o número de caracteres únicos. A ordenação inicial dos nós ou o uso de uma fila de prioridade domina a complexidade.
-* **Comentários:** A escolha gulosa é construir a árvore binária combinando sempre os dois nós (caracteres ou sub-árvores) de menor frequência. 🌳
+* **Comentários:** A escolha gulosa é construir a árvore binária combinando sempre os dois nós (caracteres ou sub-árvores) de menor frequência.
 
 ---
 
@@ -42,7 +42,7 @@
 
 * **Paradigma:** Algoritmo Guloso.
 * **Problema:** Encontrar o caminho mais curto de um único vértice de origem para todos os outros vértices em um grafo ponderado onde os pesos das arestas são **não negativos**.
-* **Aplicabilidade:** Fundamental em protocolos de roteamento de redes (como OSPF), sistemas de GPS e qualquer problema de busca de caminho mais curto em grafos sem custos negativos. 🗺️
+* **Aplicabilidade:** Fundamental em protocolos de roteamento de redes (como OSPF), sistemas de GPS e qualquer problema de busca de caminho mais curto em grafos sem custos negativos.
 * **Vantagens:** Muito eficiente para encontrar o caminho mais curto em seu domínio de aplicação. É a base para muitos outros algoritmos mais complexos.
 * **Desvantagens:** **Não funciona corretamente se o grafo tiver arestas com pesos negativos**. Essa é sua principal limitação.
 * **Complexidade:** **$O(E \log V)$** com o uso de uma fila de prioridade (heap binário), que é a implementação padrão.
